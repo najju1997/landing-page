@@ -1,0 +1,120 @@
+
+
+.container {  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-container {
+    background-color: black;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex: 1;
+    color: white;   
+}
+
+.logo {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;   
+}
+
+.link-container div {
+    padding: 15px 10px 10px 10px;   
+}
+
+.body-one {
+    background-color: black;
+    display: flex;
+    flex:1;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.body-one div {
+    background-color: black;
+    padding: 15px; 
+}
+
+.body-two {
+    color: black;
+    padding: 20px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+}
+
+.body-two div {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    padding: 20px;
+}
+
+.gallery img {
+    height: 100px;
+    width: 100px;
+}
+
+.gallery div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.body-three {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    align-items: center;
+    height: 200px;
+}
+
+.body-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    padding: 36px;
+    background-color: #f7601b;
+    border-radius: 15px;
+    margin: 100px auto;
+    color: #f9faf8;
+    flex-flow: row wrap;
+}
+
+.body-four button {
+    background-color: #f7601b;
+    font-weight: bold;
+    color: #f9faf8;
+    padding: 10px;
+    border-radius: 15px;
+    border-color: white;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
